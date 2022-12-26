@@ -30,8 +30,8 @@ public class MainApp {
             System.out.println("Last Name = " + user.getLastName());
             System.out.println("Email = " + user.getEmail());
             if (user.getCar() != null) {
-                System.out.println("Car model =" + user.getCar().getModel());
-                System.out.println("Car model =" + user.getCar().getSeries());
+                System.out.println("Car model = " + user.getCar().getModel());
+                System.out.println("Car model = " + user.getCar().getSeries());
             }
             System.out.println();
         }
